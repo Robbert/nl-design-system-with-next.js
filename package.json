@@ -43,7 +43,7 @@
     "@utrecht/web-component-library-react": "1.0.0-alpha.303",
     "clsx": "1.2.1",
     "next": "12.2.5",
-    "react": "18.2.0",
+    "react": "18.3.1",
     "react-dom": "18.2.0"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
     "@testing-library/react": "13.3.0",
     "@testing-library/user-event": "14.4.3",
     "@types/node": "18.7.6",
-    "@types/react": "18.0.17",
+    "@types/react": "18.3.1",
     "@typescript-eslint/eslint-plugin": "5.33.1",
     "@typescript-eslint/parser": "5.33.1",
     "eslint": "8.22.0",
