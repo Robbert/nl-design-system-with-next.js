@@ -21,8 +21,8 @@ dependencies:
     specifier: 1.0.0-alpha.297
     version: 1.0.0-alpha.297
   '@utrecht/web-component-library-react':
-    specifier: 1.0.0-alpha.303
-    version: 1.0.0-alpha.303(react-dom@18.2.0)(react@18.2.0)
+    specifier: 1.1.0
+    version: 1.1.0(react-dom@18.2.0)(react@18.2.0)
   clsx:
     specifier: 1.2.1
     version: 1.2.1
@@ -1085,17 +1085,9 @@ packages:
       '@sinonjs/commons': 1.8.3
     dev: true
 
-  /@stencil/angular-output-target@0.4.0(@stencil/core@2.17.2):
-    resolution: {integrity: sha512-zauaj0za46IWoPgv2IanDp3tiljwDRDNk4jB7WII6KeL66dkk7ffeqYZ0CgySTU5W2FjnKR6JEKbAnwUxjGIsA==}
-    peerDependencies:
-      '@stencil/core': ^2.9.0
-    dependencies:
-      '@stencil/core': 2.17.2
-    dev: false
-
-  /@stencil/core@2.17.2:
-    resolution: {integrity: sha512-IEqjIx0e00wwRnbFuzLVXXWpoadLHkDPNfqjkta2qt/MzmdC7oO6tYHXxvho45ehCYmEq3zFRh2TB1Ycv2vM5w==}
-    engines: {node: '>=12.10.0', npm: '>=6.0.0'}
+  /@stencil/core@4.8.2:
+    resolution: {integrity: sha512-KdZEAtz9VnqMtXOkf51+8mphyRt0fN/LYgtj5M8gnveGspG8KzoyTDzlWt0wsstWIsJJ21RA1yd3AgMMZiu3MA==}
+    engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
     dev: false
 
@@ -1510,22 +1502,21 @@ packages:
     resolution: {integrity: sha512-gAXai9AueTwe/44mzxJ8YrEtrgocicpNxSyRPysxupOHNphBTu+aaH50aW9SfEEF20wGcWX9NDtOvfAYkilzRQ==}
     dev: false
 
-  /@utrecht/web-component-library-react@1.0.0-alpha.303(react-dom@18.2.0)(react@18.2.0):
-    resolution: {integrity: sha512-Rn985EyK3sbfDH9NN9ITMxPNhEV07R67pbXs+qMGy1YchWoFdvbfSmxAnW5UyBkNuMbhUB81tVZXu69PCN0D0g==}
+  /@utrecht/web-component-library-react@1.1.0(react-dom@18.2.0)(react@18.2.0):
+    resolution: {integrity: sha512-TVkicJm7FDq5gRaJiCC9EEe22CDnmPwtICuPE1EYKA2dCiFc7lHcP53fjCq9q8KpXys/BDb1SFAARZ1JV6tiuw==}
     peerDependencies:
       react: 16 - 18
       react-dom: 16 - 18
     dependencies:
-      '@utrecht/web-component-library-stencil': 1.0.0-alpha.303
+      '@utrecht/web-component-library-stencil': 1.2.0
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /@utrecht/web-component-library-stencil@1.0.0-alpha.303:
-    resolution: {integrity: sha512-9iGBn2D7uj/4PkzeCVK1vOMvAbfJctCFyKv8NWNe7730+2nvuMcpwWqS285X8jbbdnrSCz5nL1DRatG1IGS8nw==}
+  /@utrecht/web-component-library-stencil@1.2.0:
+    resolution: {integrity: sha512-EGYoIxHGFMHRGfwYpCpxrxQahJbSlJSKhT3L6Jub4EtOyTKe/BXq6EeeQpxUB43JaHk3lV5xXnjuhAqrH12ekg==}
     dependencies:
-      '@stencil/angular-output-target': 0.4.0(@stencil/core@2.17.2)
-      '@stencil/core': 2.17.2
+      '@stencil/core': 4.8.2
     dev: false
 
   /abab@2.0.6:
